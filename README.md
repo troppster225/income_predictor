@@ -17,3 +17,6 @@ In this project I created an income predicition app deployed using Streamlit. Th
 
 ## Running remotely
 If you wish to run the deployed model without downloading anything locally, go to this url: 
+
+## Why we need a .py and .ipynb file
+The .ipynb format is perfect for experimentation and iterative development. You can easily visualize things as you go and execute code step by step, allowing for better debugging. The .py file is better for automation and reproducibility. This file can be run more efficiently then the .ipynb file and can be run without manual intervention. When retraining the model in a production setting, we could use this script to automate the process and ensure consistency.
